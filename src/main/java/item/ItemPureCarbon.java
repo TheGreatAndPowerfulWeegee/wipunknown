@@ -6,7 +6,7 @@ public class ItemPureCarbon extends ItemWIPU {
 	public ItemPureCarbon()
 	{
 		super();
-		this.setUnlocalizedName("pureCarbon");
+		this.setRegistryName("pure_carbon");
 		this.setCreativeTab(CreativeTabWIPU.WIPU_TAB);
 	}
 }

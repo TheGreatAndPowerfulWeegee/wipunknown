@@ -1,13 +1,12 @@
 package com.weegee.wipunknown;
 import reference.Reference;
-import cpw.mods.fml.common.Mod;
-import cpw.mods.fml.common.SidedProxy;
-import cpw.mods.fml.common.event.FMLInitializationEvent;
-import cpw.mods.fml.common.event.FMLPostInitializationEvent;
-import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.fml.common.Mod;
 import handler.configurationHandler;
 import init.ModBlocks;
 import init.ModItems;
+import net.minecraftforge.fml.common.Optional.Method;
+import net.minecraftforge.fml.common.SidedProxy;
 import proxy.IProxy;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION)
@@ -20,19 +19,14 @@ public class wipunknown
 	public static IProxy proxy;
 	
 	@Mod.EventHandler
-	public void preInit(FMLPreInitializationEvent event) 
+	public void preInit(net.minecraftforge.fml.common.event.FMLPreInitializationEvent event) 
 	{
 		configurationHandler.init(event.getSuggestedConfigurationFile());
-		ModItems.init();
-		ModBlocks.init();
+		
 	}
+
 	@Mod.EventHandler
-	public void init(FMLInitializationEvent event) 
-	{
-		init.Recipies.init();
-	}
-	@Mod.EventHandler
-	public void postInit(FMLPostInitializationEvent event) 
+	public void postInit(net.minecraftforge.fml.common.event.FMLPostInitializationEvent event) 
 	{
 		
 	}

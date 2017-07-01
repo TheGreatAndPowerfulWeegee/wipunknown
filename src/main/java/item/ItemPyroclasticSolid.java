@@ -6,7 +6,7 @@ public class ItemPyroclasticSolid extends ItemWIPU {
 	public ItemPyroclasticSolid()
 	{
 		super();
-		this.setUnlocalizedName("pyroclasticSolid");
+		this.setRegistryName("pyroclastic_solid");
 		this.setCreativeTab(CreativeTabWIPU.WIPU_TAB);
 		this.setMaxStackSize(32);
 	}

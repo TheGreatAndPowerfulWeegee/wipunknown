@@ -6,7 +6,7 @@ public class ItemPolymerFusedAdhesive extends ItemWIPU {
 	public ItemPolymerFusedAdhesive()
 	{
 		super();
-		this.setUnlocalizedName("polymerFusedAdhesive");
+		this.setRegistryName("polymer_fused_adhesive");
 		this.setCreativeTab(CreativeTabWIPU.WIPU_TAB);
 	}
 

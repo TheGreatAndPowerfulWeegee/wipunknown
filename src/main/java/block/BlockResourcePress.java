@@ -8,7 +8,7 @@ import net.minecraft.world.World;
 public class BlockResourcePress extends BlockContainer {
 	public BlockResourcePress()
 	{
-		super(Material.rock);
+		super(Material.ROCK);
 	}
 
 	@Override
