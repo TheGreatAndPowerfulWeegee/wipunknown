@@ -13,5 +13,6 @@ public class Recipies {
 		GameRegistry.addRecipe(new ItemStack(ModBlocks.denseCasing), "sis", "ipi", "sis", 's', new ItemStack(ModItems.pureCarbon), 'i', new ItemStack(Items.iron_ingot), 'p', new ItemStack(ModItems.pyroclasticSolid));
 		GameRegistry.addSmelting(Items.blaze_powder, new ItemStack(ModItems.pyroclasticSolid), 0.9F);
 		GameRegistry.addRecipe(new ItemStack(ModItems.heatingBlob), "sss", "sds", "sss", 's', new ItemStack(ModItems.pyroclasticSolid), 'd', new ItemStack(ModItems.polymerFusedAdhesive));
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.polymerFusedAdhesive), new ItemStack(Items.gunpowder), Items.slime_ball, Items.snowball);
 	}
 }

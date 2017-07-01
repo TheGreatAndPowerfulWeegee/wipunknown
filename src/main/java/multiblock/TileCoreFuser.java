@@ -4,6 +4,7 @@ import net.minecraft.block.Block;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.world.World;
+import scala.Console;
 
 public class TileCoreFuser extends TileEntity {
 	private boolean hasMaster, isMaster;
@@ -163,6 +164,7 @@ public class TileCoreFuser extends TileEntity {
 				if (isMaster())
 				{
 					//insert multiblock functions here
+					Console.print("ay it worked");
 				}
 				else
 				{
@@ -173,6 +175,10 @@ public class TileCoreFuser extends TileEntity {
 				}
 			}
 		}
+	}
+	private void OnBlockActivated() {
+		// TODO Auto-generated method stub
+		
 	}
 	
 }
