@@ -1,8 +1,8 @@
-item.wipunknown:fineCarbon.name=Fine Carbon
-item.wipunknown:pureCarbon.name=Pure Carbon
-item.wipunknown:pyroclasticSolid.name=Pyroclastic Solid
-item.wipunknown:heatingBlob.name=Heating Blob
-item.wipunknown:polymerFusedAdhesive.name=Poly Resin
-tile.wipunknown:denseCasing.name=Dense Casing
-tile.wipunknown:solarCore.name=Solar Core
+item.wipunknown:fine_carbon.name=Fine Carbon
+item.wipunknown:pure_carbon.name=Graphite
+item.wipunknown:pyroclastic_solid.name=Pyroclastic Solid
+item.wipunknown:heating_blob.name=Heating Blob
+item.wipunknown:polymer_fused_adhesive.name=Poly Resin
+tile.wipunknown:dense_casing.name=Dense Casing
+tile.wipunknown:solar_core.name=Solar Core
 

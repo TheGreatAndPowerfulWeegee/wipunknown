@@ -10,5 +10,6 @@ public class BlockDenseCasing extends BlockWIPU {
 		super();
 		this.setRegistryName("dense_casing");
 		this.setCreativeTab(CreativeTabWIPU.WIPU_TAB);
+		this.setUnlocalizedName("dense_casing");
 	}
 }

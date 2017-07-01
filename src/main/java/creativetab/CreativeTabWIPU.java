@@ -19,7 +19,6 @@ public class CreativeTabWIPU {
 
 		@Override
 		public ItemStack getTabIconItem() {
-			// TODO Auto-generated method stub
 			return null;
 		}
 	};

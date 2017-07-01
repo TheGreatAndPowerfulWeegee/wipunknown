@@ -8,6 +8,7 @@ public class ItemFineCarbon extends ItemWIPU
 	{
 		super();
 		this.setRegistryName("fine_carbon");
+		this.setUnlocalizedName("fine_carbon");
 		this.setCreativeTab(CreativeTabWIPU.WIPU_TAB);
 	}
 }
