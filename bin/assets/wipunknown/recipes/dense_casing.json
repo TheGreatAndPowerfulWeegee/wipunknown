@@ -6,7 +6,7 @@
         "CIC"
     ],
     "key": {
-        "C": { "item": "wipunknown:pureCarbon" },
+        "C": { "item": "wipunknown:pure_carbon" },
         "I": { "item": "minecraft:iron_ingot" },
         "P": { "item": "wipunknown:pyroclastic_solid" },
     },
