@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "TTT",
+        "TTT",
+        "TRT"
+    ],
+    "key": {
+        "T": { "item": "minecraft:coal" },
+        "R": { "item": "minecraft:stick" },
+    },
+    "result": {
+        "item": "wipunknown:fine_carbon",
+        "data": 0
+    }
+}

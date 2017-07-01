@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+         "item": "minecraft:gunpowder",
+      },
+      {
+         "item": "minecraft:snowball",
+      },
+      {
+         "item": "minecraft:slime_ball",
+      }
+    ],
+    "result": {
+    "item": "wipunknown:polymer_fused_adhesive",
+    "data": 0
+    }
+}
