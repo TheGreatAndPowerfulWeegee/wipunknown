@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "TTT",
+        "RSR",
+        "TVT"
+    ],
+    "key": {
+        "T": { "item": "wipunknown:fine_carbon" },
+        "R": { "item": "minecraft:redstone" },
+        "S": { "item": "minecraft:slime_ball" },
+        "V": { "block": "minecraft:sand" },
+    },
+    "result": {
+        "item": "wipunknown:pure_carbon",
+        "data": 0
+    }
+}

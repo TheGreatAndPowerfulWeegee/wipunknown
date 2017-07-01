@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CIC",
+        "IPI",
+        "CIC"
+    ],
+    "key": {
+        "C": { "item": "wipunknown:pureCarbon" },
+        "I": { "item": "minecraft:iron_ingot" },
+        "P": { "item": "wipunknown:pyroclastic_solid" },
+    },
+    "result": {
+        "item": "wipunknown:dense_casing",
+        "data": 0
+    }
+}

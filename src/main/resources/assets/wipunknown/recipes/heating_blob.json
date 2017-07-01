@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "SSS",
+        "SDS",
+        "SSS"
+    ],
+    "key": {
+        "S": { "item": "wipunknown:pyroclastic_solid" },
+        "D": { "item": "wipunknown:polymer_fused_adhesive" },
+    },
+    "result": {
+        "item": "wipunknown:heating_blob",
+        "data": 0
+    }
+}
