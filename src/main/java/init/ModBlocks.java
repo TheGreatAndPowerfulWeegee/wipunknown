@@ -38,7 +38,7 @@ public class ModBlocks {
 	}
 	@SubscribeEvent
 	@SideOnly(Side.CLIENT)
-	public static void onRegisterModels(RegistryEvent event) {
+	public static void onRegisterModels(RegistryEvent<Item> event) {
 	    ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(dense_casing), 0, new ModelResourceLocation(dense_casing.getRegistryName(), "inventory"));
 	}
 }
